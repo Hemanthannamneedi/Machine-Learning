@@ -1,0 +1,12 @@
+
+name,age,gender,city,study_hours,marks,course
+Hemanth,22,Male,Bapatla,5,85,Python
+Ravi,21,Male,Hyderabad,3,72,Data Science
+Priya,23,Female,Chennai,7,92,Python
+Suresh,22,Male,Hyderabad,2,58,Machine Learning
+Anjali,21,Female,Chennai,6,88,Data Science
+Kiran,24,Male,Bapatla,4,75,Python
+Divya,22,Female,Chennai,8,96,Machine Learning
+Arjun,23,Male,Hyderabad,1,45,Data Science
+Meena,21,Female,Bapatla,5,82,Python
+Rahul,24,Male,Chennai,3,65,Machine Learning
