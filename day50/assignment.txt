@@ -1,0 +1,23 @@
+# Day 50 Assignment: Saving a Trained ML Model
+
+## Objective
+Build a house price prediction system and save the trained model for future use.
+
+## Implementation
+I created an end-to-end Machine Learning pipeline using Linear Regression. The pipeline loads the housing dataset, cleans the data, handles missing values, encodes categorical features, splits the dataset, and trains the model.
+
+## Model Evaluation
+I evaluated the model using:
+- Mean Absolute Error (MAE): [Fill in from output]
+- Mean Squared Error (MSE): [Fill in from output]
+- Root Mean Squared Error (RMSE): [Fill in from output]
+- R² score: [Fill in from output]
+- Mean five-fold cross-validation RMSE: [Fill in from output]
+
+## Model Persistence
+I saved the complete preprocessing and regression pipeline using `joblib.dump()` in `models/house_model.joblib`.
+
+I then reloaded it using `joblib.load()` and used it to predict the price of a new house without retraining the model.
+
+## Conclusion
+This project demonstrates how to build, evaluate, save, reload, and reuse a Machine Learning model. The dataset is small and illustrative, so the evaluation metrics are for practice rather than real-world price prediction.
