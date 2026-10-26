@@ -1,0 +1,22 @@
+# Day 46 Assignment: Linear Regression
+
+## 1. Simple Linear Regression
+I used `size_sqft` as the only input feature to predict house prices. I split the dataset into 80% training data and 20% testing data using `train_test_split()`.
+
+## 2. Multiple Linear Regression
+I used `size_sqft`, `bedrooms`, and `age_years` as input features to predict house prices. I trained and evaluated this model using the same train-test split.
+
+## 3. Model Comparison
+I compared the Mean Absolute Error (MAE) and R² score of both models. A lower MAE indicates smaller average prediction errors. The model with the lower test MAE performed better on this test split.
+
+Simple model MAE: [Enter the output]
+
+Multiple model MAE: [Enter the output]
+
+## 4. New Prediction
+I used the multiple linear regression model to predict the price of a house with 1,700 square feet, 3 bedrooms, and an age of 5 years.
+
+Predicted price: [Enter the output] lakhs
+
+## Conclusion
+This project demonstrates loading data, separating features and the target, splitting data into training and testing sets, training linear regression models, evaluating predictions, and comparing one-feature and multi-feature approaches.
