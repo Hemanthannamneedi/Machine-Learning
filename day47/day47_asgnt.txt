@@ -1,0 +1,31 @@
+# Day 47 Assignment: Regression Metrics and K-Fold Cross-Validation
+
+## Part 1: Regression Metrics
+
+**Mean Squared Error (MSE):** Measures the average squared difference between actual and predicted house prices. A lower value indicates smaller prediction errors.
+
+**Root Mean Squared Error (RMSE):** The square root of MSE. It expresses prediction error in the same unit as the target, which is lakhs in this project.
+
+**R² Score:** Measures how well the model explains variation in house prices. A score closer to 1 generally indicates a better fit, while a negative test score means the model performs worse than predicting the test-set mean.
+
+## Part 2: K-Fold Cross-Validation
+
+**5-Fold Cross-Validation:** Divides the dataset into five folds. The model is trained and evaluated five times, with each fold used for testing once. The mean and standard deviation of the R² scores help assess performance and consistency.
+
+**10-Fold Cross-Validation:** Divides the dataset into ten folds. It uses a greater proportion of the data for training in each iteration, but takes more computation and requires enough observations in each test fold.
+
+## Part 3: Comparison
+
+Single-split R²: [Enter result]
+
+5-fold mean R²: [Enter result]
+
+5-fold R² standard deviation: [Enter result]
+
+5-fold mean RMSE: [Enter result]
+
+10-fold mean RMSE: [Enter result]
+
+## Conclusion
+
+Cross-validation evaluates a model across multiple splits rather than relying on one random train-test split. The mean score summarizes performance, while the standard deviation indicates how much results vary. Since this practice dataset is small, 10-fold R² may be undefined for some folds. A larger dataset is needed for a reliable comparison of 5-fold and 10-fold R² scores.
