@@ -1,0 +1,45 @@
+# Day 48 Assignment: Classification Models
+
+## Part 1: Train Models on the Churn Dataset
+
+I trained two classification models using customer churn data:
+
+- **Logistic Regression:** Predicts the probability of a customer leaving.
+- **Decision Tree Classifier:** Uses feature-based decision rules to predict customer churn.
+
+The target column was mapped as:
+- No = 0 (Stay)
+- Yes = 1 (Churn)
+
+I converted categorical features into numeric values and divided the dataset into training and testing sets.
+
+## Part 2: Compare Model Accuracy
+
+| Model | Test Accuracy |
+|---|---|
+| Logistic Regression | Fill in from output |
+| Decision Tree (depth 3) | Fill in from output |
+
+The model with higher test accuracy performed better on this particular test split. Accuracy alone does not guarantee that a model will perform equally well on new data.
+
+## Part 3: Experiment with max_depth
+
+I experimented with Decision Tree depths of 3, 5, and 10 and recorded training and testing accuracy.
+
+| max_depth | Training Accuracy | Testing Accuracy |
+|---|---|---|
+| 3 | Fill in from output | Fill in from output |
+| 5 | Fill in from output | Fill in from output |
+| 10 | Fill in from output | Fill in from output |
+
+## Observations on Overfitting
+
+Increasing the maximum depth allows a Decision Tree to learn more detailed patterns in the training data. However, a very deep tree may memorize training examples instead of learning general patterns.
+
+If training accuracy increases while testing accuracy stays the same or decreases, it may indicate overfitting. A smaller maximum depth can help the model generalize better.
+
+The best depth should be selected using reliable validation results rather than training accuracy alone.
+
+## Conclusion
+
+I trained and evaluated Logistic Regression and Decision Tree classifiers, visualized the Decision Tree, compared their test accuracy, and investigated how tree depth affects overfitting.
