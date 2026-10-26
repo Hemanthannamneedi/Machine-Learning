@@ -1,0 +1,40 @@
+# Day 49: Classification Metrics and Random Forest
+
+## 1. Classification Metrics
+
+I evaluated the classification models using accuracy, precision, recall, and F1-score.
+
+- **Accuracy:** The proportion of all predictions that were correct.
+- **Precision:** The proportion of predicted churn cases that were actually churn cases.
+- **Recall:** The proportion of actual churn cases correctly identified.
+- **F1-score:** The harmonic mean of precision and recall.
+
+## 2. Confusion Matrix
+
+I plotted the Random Forest confusion matrix.
+
+Rows represent actual classes, and columns represent predicted classes. The matrix helps identify correct predictions, false alarms, and missed churn cases.
+
+## 3. Random Forest and Feature Importance
+
+I trained a Random Forest classifier using 100 decision trees and extracted the five most important features.
+
+Top features and their importance scores: [Fill in from program output]
+
+Feature importance indicates how useful a feature was to the trained model. It does not prove that the feature causes customer churn.
+
+## 4. n_estimators Experiment
+
+I tested 50, 100, and 200 trees and recorded test accuracy.
+
+- 50 trees: [Fill in]
+- 100 trees: [Fill in]
+- 200 trees: [Fill in]
+
+## 5. Model Comparison and Conclusion
+
+I compared the Random Forest with the Decision Tree from Day 48 using accuracy, precision, recall, and F1-score.
+
+The model with the strongest evaluation results on this test split was [fill in from output]. The experiment showed how confusion matrices provide more detail than accuracy alone and how Random Forest combines multiple decision trees to make predictions.
+
+Because the dataset is small, these results are for practice and should not be treated as proof of real-world performance.
