@@ -1,0 +1,29 @@
+# Day 51 Assignment – Feature Engineering
+
+## Objective
+Create useful features from existing customer data to make the dataset more suitable for Machine Learning.
+
+## Features Created
+
+1. **TotalCharges:** Calculated by multiplying MonthlyCharges by Tenure.
+2. **AgeGroup:** Categorized customers into Young, Adult, Middle-aged, and Senior groups.
+3. **IncomeCategory:** Divided customers into Low, Medium, High, and Very High income categories.
+4. **TenureGroup:** Categorized customers based on their subscription duration.
+5. **SupportCallRate:** Calculated using support calls divided by tenure plus one.
+
+## Data Cleaning
+- Checked missing values.
+- Filled numerical missing values using median.
+- Filled categorical missing values using mode.
+- Detected outliers using the Interquartile Range (IQR) method.
+
+## Visualization
+Created charts for:
+- Customer distribution by age group.
+- Customer distribution by income category.
+- Total charges versus tenure.
+
+## Conclusion
+I performed feature engineering using Pandas by creating new numerical and categorical features from existing customer data. I also handled missing values, detected outliers, visualized feature distributions, and exported the transformed dataset into a new CSV file.
+
+These engineered features provide additional information that can be tested in future Machine Learning models.

@@ -1,0 +1,21 @@
+CustomerID,Age,Income,MonthlyCharges,Tenure,SupportCalls,Contract,Churn,TotalCharges,AgeGroup,IncomeCategory,TenureGroup,SupportCallRate,Age_Outlier,Income_Outlier,MonthlyCharges_Outlier,TotalCharges_Outlier
+101,22,25000,95,2,5,Month-to-month,Yes,190,Young,Low,New Customer,1.6666666666666667,False,False,False,False
+102,28,35000,89,4,4,Month-to-month,Yes,356,Young,Medium,New Customer,0.8,False,False,False,False
+103,35,50000,75,12,3,One-year,No,900,Adult,Medium,New Customer,0.23076923076923078,False,False,False,False
+104,45,65000,60,24,1,One-year,No,1440,Adult,High,Regular Customer,0.04,False,False,False,False
+105,52,80000,55,36,0,Two-year,No,1980,Middle-aged,High,Regular Customer,0.0,False,False,False,False
+106,60,95000,50,48,1,Two-year,No,2400,Middle-aged,Very High,Loyal Customer,0.02040816326530612,False,False,False,False
+107,25,30000,99,3,6,Month-to-month,Yes,297,Young,Low,New Customer,1.5,False,False,False,False
+108,31,42000,80,10,4,Month-to-month,Yes,800,Adult,Medium,New Customer,0.36363636363636365,False,False,False,False
+109,40,60000,65,20,2,One-year,No,1300,Adult,Medium,Regular Customer,0.09523809523809523,False,False,False,False
+110,55,90000,48,50,0,Two-year,No,2400,Middle-aged,High,Loyal Customer,0.0,False,False,False,False
+111,29,38000,92,5,5,Month-to-month,Yes,460,Young,Medium,New Customer,0.8333333333333334,False,False,False,False
+112,38,55000,70,18,2,One-year,No,1260,Adult,Medium,Regular Customer,0.10526315789473684,False,False,False,False
+113,48,72000,58,30,1,Two-year,No,1740,Middle-aged,High,Regular Customer,0.03225806451612903,False,False,False,False
+114,65,110000,45,60,0,Two-year,No,2700,Senior,Very High,Loyal Customer,0.0,False,False,False,False
+115,33,45000,85,8,3,Month-to-month,Yes,680,Adult,Medium,New Customer,0.3333333333333333,False,False,False,False
+116,42,62000,62,22,2,One-year,No,1364,Adult,High,Regular Customer,0.08695652173913043,False,False,False,False
+117,27,32000,105,1,7,Month-to-month,Yes,105,Young,Medium,New Customer,3.5,False,False,False,False
+118,50,78000,52,40,1,Two-year,No,2080,Middle-aged,High,Loyal Customer,0.024390243902439025,False,False,False,False
+119,36,52000,72,16,3,One-year,No,1152,Adult,Medium,Regular Customer,0.17647058823529413,False,False,False,False
+120,70,120000,40,65,0,Two-year,No,2600,Senior,Very High,Loyal Customer,0.0,False,False,False,False
