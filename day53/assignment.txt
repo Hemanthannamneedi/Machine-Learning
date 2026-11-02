@@ -1,0 +1,37 @@
+# Day 53 – ML Pipelines & Handling Class Imbalance
+
+## Part 1: Machine Learning Pipeline
+- Create a preprocessing pipeline using SimpleImputer and OneHotEncoder.
+- Combine preprocessing and Random Forest model training using an imbalanced-learn Pipeline.
+- Use the same pipeline structure for training and prediction.
+
+## Part 2: Handling Class Imbalance
+Train and compare these three approaches:
+
+1. Random Forest without imbalance handling.
+2. Random Forest using `class_weight="balanced"`.
+3. Random Forest using SMOTE on training data.
+
+## Part 3: Evaluation
+Evaluate each model using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+Use F1-score as the primary comparison metric for the churn class.
+
+## Part 4: Explanation
+
+Accuracy can be misleading for imbalanced datasets because a model may predict only the majority class and still achieve high accuracy. However, it may fail to identify minority-class examples, such as customers who are likely to churn.
+
+Precision measures how many predicted churn cases were actually churn cases. Recall measures how many actual churn cases were correctly identified. F1-score balances precision and recall.
+
+## Deliverables
+- Python implementation
+- Reusable ML pipelines
+- Class-weight and SMOTE implementations
+- Model comparison CSV
+- Comparison chart
+- Short explanation of class imbalance
+

@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1 Score,Training Time
+Baseline Random Forest,1.0,1.0,1.0,1.0,0.18035730000000072
+Class Weight Balanced,1.0,1.0,1.0,1.0,0.18648349999999958
+SMOTE + Random Forest,1.0,1.0,1.0,1.0,3.252229399999999
