@@ -1,0 +1,51 @@
+# Day 52 Assignment – Feature Scaling, KNN and SVM
+
+## 1. Feature Scaling
+
+I applied two scaling techniques:
+
+- StandardScaler: Standardizes features using mean and standard deviation.
+- MinMaxScaler: Transforms features into a range between 0 and 1.
+
+I fitted both scalers on training data and transformed the test data to prevent data leakage.
+
+## 2. KNN Experiment
+
+I tested KNN using k values of 1, 5, 10, and 20.
+
+I compared model accuracy with and without StandardScaler and plotted the results.
+
+Observation: [Write your observation from the KNN comparison output.]
+
+## 3. SVM Experiment
+
+I trained Support Vector Machine models using:
+- Linear kernel
+- RBF kernel
+
+I used StandardScaler before training both models.
+
+Observation: [Write your observation from the SVM results.]
+
+## 4. Five-Model Comparison
+
+I compared five classification algorithms using the same training and testing datasets.
+
+The evaluation metrics included:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Training time
+
+The comparison results are saved in `model_comparison.csv`.
+
+## 5. Conclusion
+
+Feature scaling is important for distance-based and margin-based algorithms such as KNN and SVM.
+
+Decision Trees and Random Forests generally work without feature scaling.
+
+Based on my experimental results, [write the model with the highest F1-score] performed best on this test split.
+
+The most suitable model depends on the problem, evaluation metrics, dataset size, and computational requirements.
