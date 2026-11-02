@@ -1,0 +1,53 @@
+# Day 55 – Advanced Customer Churn Prediction
+
+## Objective
+Build a complete customer churn prediction system using the Machine Learning techniques learned throughout the program.
+
+## Part 1: Feature Engineering
+Create additional features:
+- Total Charges
+- Support Call Rate
+- Tenure Groups
+
+## Part 2: Data Preprocessing
+- Handle missing numerical values.
+- Handle missing categorical values.
+- Apply StandardScaler.
+- Apply OneHotEncoder.
+- Use an ML Pipeline.
+
+## Part 3: Model Optimization
+- Train multiple classification algorithms.
+- Apply SMOTE to training data.
+- Use GridSearchCV for hyperparameter tuning.
+- Compare models using Accuracy, Precision, Recall and F1-score.
+
+## Part 4: Model Evaluation
+- Select the best-performing model.
+- Generate a confusion matrix.
+- Calculate classification metrics.
+- Extract and visualize feature importance when supported.
+
+## Part 5: Model Saving
+Save the complete trained pipeline using Joblib.
+
+## Part 6: Evaluation Report
+Create a professional report containing:
+- Executive Summary
+- Data Preparation
+- Model Leaderboard
+- Winning Model Evaluation
+- Confusion Matrix Explanation
+- Feature Importance
+- Project Limitations
+- Conclusion
+
+## Deliverables
+- Complete Python source code
+- Trained model
+- Model comparison CSV
+- Confusion matrix
+- Feature importance chart
+- Evaluation report
+- GitHub repository
+

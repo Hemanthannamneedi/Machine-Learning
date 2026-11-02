@@ -1,0 +1,4 @@
+Model,Best Parameters,Best CV F1
+Random Forest,"{'model__max_depth': 3, 'model__n_estimators': 100}",1.0
+Gradient Boosting,"{'model__learning_rate': 0.05, 'model__n_estimators': 100}",0.9523809523809524
+XGBoost,"{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 50}",0.9047619047619048
