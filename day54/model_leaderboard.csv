@@ -1,0 +1,10 @@
+Model,Accuracy,F1 Score,Training Time (seconds)
+Logistic Regression,1.0,1.0,0.04967530000000053
+Decision Tree,1.0,1.0,0.043843999999999994
+Random Forest,1.0,1.0,0.4062135999999974
+KNN,1.0,1.0,0.04101479999999924
+SVM,1.0,1.0,0.03126490000000004
+Gradient Boosting (Default),1.0,1.0,0.26650189999999796
+Gradient Boosting (Tuned),1.0,1.0,0.4490945999999987
+XGBoost (Default),1.0,1.0,0.07614399999999932
+XGBoost (Tuned),1.0,1.0,0.08587449999999919

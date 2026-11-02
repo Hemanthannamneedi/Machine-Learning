@@ -1,0 +1,50 @@
+# Day 54 – Hyperparameter Tuning, Gradient Boosting & XGBoost
+
+## Part 1: Hyperparameter Tuning
+- Apply GridSearchCV to GradientBoostingClassifier.
+- Apply GridSearchCV to XGBClassifier.
+- Tune n_estimators, learning_rate and max_depth.
+- Record the best parameters and cross-validation F1-score.
+
+## Part 2: Model Training
+Train and compare the following six algorithms:
+
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. K-Nearest Neighbors
+5. Support Vector Machine
+6. XGBoost
+
+Also train and evaluate Gradient Boosting as an additional model.
+
+## Part 3: Model Evaluation
+Compare the models using:
+- Accuracy
+- F1-score
+- Training time
+
+Create a model leaderboard and identify the best model based on test F1-score.
+
+## Part 4: Before and After Tuning
+Compare default and tuned Gradient Boosting and XGBoost models.
+
+Explain whether hyperparameter tuning improved their test performance.
+
+## Part 5: Theory
+
+**Bagging:** Random Forest builds multiple decision trees independently and combines their predictions.
+
+**Boosting:** Gradient Boosting and XGBoost build trees sequentially. Each new tree attempts to correct errors made by previous trees.
+
+**GridSearchCV:** Tests combinations of hyperparameters using cross-validation and identifies the best combination according to the selected scoring metric.
+
+## Deliverables
+- Python implementation
+- Gradient Boosting and XGBoost models
+- GridSearchCV results
+- Model leaderboard CSV
+- Tuning comparison CSV
+- Model comparison chart
+- Short explanation of bagging and boosting
+

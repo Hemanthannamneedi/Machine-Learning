@@ -1,0 +1,5 @@
+Model,Accuracy,F1 Score,Training Time (seconds)
+Gradient Boosting (Default),1.0,1.0,0.26650189999999796
+Gradient Boosting (Tuned),1.0,1.0,0.4490945999999987
+XGBoost (Default),1.0,1.0,0.07614399999999932
+XGBoost (Tuned),1.0,1.0,0.08587449999999919
