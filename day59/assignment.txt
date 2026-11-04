@@ -1,0 +1,55 @@
+# Day 59 Assignment – Model Saving, Loading and API Integration
+
+## Objective
+Build a complete Machine Learning service by training a model, saving it, loading it and exposing predictions through FastAPI.
+
+## Model
+Customer Churn Prediction using Random Forest Classifier.
+
+## 1. Model Saving and Loading
+- Trained a Random Forest model.
+- Saved the complete preprocessing and prediction pipeline using Joblib.
+- Loaded the saved model.
+- Compared predictions before and after loading to verify consistency.
+
+## 2. Model Versioning
+- Implemented model version identification.
+- Saved model files with version numbers.
+- Created model metadata and a current-model manifest.
+- Used the manifest to load the active model.
+
+## 3. FastAPI Integration
+Implemented the following endpoints:
+
+| Endpoint | Method | Purpose |
+|---|---|---|
+| `/` | GET | API information |
+| `/health` | GET | Health status |
+| `/model-info` | GET | Model metadata |
+| `/predict` | POST | Single prediction |
+| `/predict/batch` | POST | Batch predictions |
+| `/cache-info` | GET | Cache statistics |
+| `/cache/clear` | POST | Clear cache |
+
+## 4. Response Caching
+Implemented an in-memory LRU cache to store repeated prediction results and reduce unnecessary model inference.
+
+## 5. Error Handling
+- Validated customer input.
+- Rejected invalid negative numerical values.
+- Added prediction error handling.
+- Added model loading error handling.
+
+## 6. Evaluation Results
+
+Fill in actual results:
+
+- Model Test Accuracy: __________
+- Save/Load Verification: __________
+- API Status: __________
+- Single Prediction Test: __________
+- Batch Prediction Test: __________
+- Cache Test: __________
+
+## Conclusion
+Successfully developed a Machine Learning API service using FastAPI. The project demonstrates model persistence, versioning, prediction endpoints, batch inference, caching and input validation.

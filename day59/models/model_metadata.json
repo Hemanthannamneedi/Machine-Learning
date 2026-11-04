@@ -1,0 +1,14 @@
+{
+    "model_name": "Customer Churn Prediction",
+    "version": "v1",
+    "model_file": "churn_model_v1.joblib",
+    "algorithm": "Random Forest Classifier",
+    "features": [
+        "tenure",
+        "monthly_charges",
+        "support_calls",
+        "contract"
+    ],
+    "test_accuracy": 1.0,
+    "trained_at_utc": "2026-11-04T07:24:49.643010+00:00"
+}
