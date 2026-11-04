@@ -1,0 +1,47 @@
+# Day 56 – Introduction to Artificial Neural Networks
+
+## Objective
+Build and train an Artificial Neural Network using TensorFlow and Keras for customer churn classification.
+
+## Part 1: ANN Architecture
+Create an ANN containing:
+- Input layer
+- One hidden layer with 10 neurons
+- ReLU activation function
+- Output layer with one neuron
+- Sigmoid activation function
+
+## Part 2: Model Training
+- Compile the model using the Adam optimizer.
+- Use binary cross-entropy as the loss function.
+- Train the model using the churn dataset.
+- Observe training and validation loss.
+
+## Part 3: Architecture Experiment
+Train and compare ANN architectures with:
+- 5 hidden neurons
+- 20 hidden neurons
+- 50 hidden neurons
+
+Compare their accuracy, F1-score, test loss and training time.
+
+## Part 4: Explanation
+
+**Input Layer:** Receives the input features.
+
+**Hidden Layer:** Learns patterns using weighted connections and activation functions.
+
+**Output Layer:** Produces the final classification prediction.
+
+**Activation Function:** ReLU introduces non-linearity in the hidden layer, while Sigmoid produces an output probability between 0 and 1.
+
+**Backpropagation:** Calculates prediction errors and updates network weights to reduce the loss during training.
+
+## Deliverables
+- ANN Python implementation
+- Trained 10-neuron model
+- Architecture comparison CSV
+- Training loss graph
+- Neuron comparison graph
+- Short explanation of ANN architecture
+
