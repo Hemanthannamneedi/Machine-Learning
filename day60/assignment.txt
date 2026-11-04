@@ -1,0 +1,69 @@
+# Day 60 – Month 3 Capstone: AI-Powered Application
+
+## Project Title
+AI-Powered Customer Churn Prediction System
+
+## Objective
+Develop a complete Machine Learning application by integrating a trained model with a FastAPI backend.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- FastAPI
+- Uvicorn
+- Pydantic
+
+## 1. Model Development
+- Loaded and cleaned the customer churn dataset.
+- Prepared numerical and categorical features.
+- Built a preprocessing pipeline.
+- Trained a Random Forest Classifier.
+- Evaluated the model using test accuracy and a classification report.
+- Saved the trained model using Joblib.
+
+## 2. Model Integration
+- Loaded the saved model into the application.
+- Separated model operations from API endpoints.
+- Implemented model version metadata.
+- Verified prediction consistency after saving and loading.
+
+## 3. API Development
+
+| Endpoint | Method | Purpose |
+|---|---|---|
+| `/` | GET | Application information |
+| `/health` | GET | Application health |
+| `/model-info` | GET | Model metadata |
+| `/predict` | POST | Single customer prediction |
+| `/predict/batch` | POST | Batch prediction |
+| `/cache-info` | GET | Cache statistics |
+| `/cache/clear` | POST | Clear prediction cache |
+
+## 4. Error Handling
+- Added input validation using Pydantic.
+- Rejected invalid numerical values.
+- Added prediction error handling.
+- Provided structured API responses.
+
+## 5. Performance and Application Features
+- Implemented an in-memory LRU prediction cache.
+- Added model version information to prediction responses.
+- Separated training, model services, schemas and API logic.
+
+## 6. Evaluation Results
+
+Complete using actual execution results:
+
+- Model Test Accuracy: __________
+- Model Save/Load Verification: __________
+- API Health Check: __________
+- Single Prediction: __________
+- Batch Prediction: __________
+- Invalid Input Validation: __________
+- Cache Test: __________
+
+## Conclusion
+Developed an end-to-end AI-powered customer churn prediction application. The project combines model training, model persistence, FastAPI integration, input validation, error handling, batch predictions, caching and documentation. It demonstrates the process of converting a machine learning experiment into an organized application that can be accessed through REST API endpoints.
