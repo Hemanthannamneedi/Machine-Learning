@@ -1,0 +1,61 @@
+# Day 58 Assignment – Recurrent Neural Networks
+
+## Objective
+Build and train Recurrent Neural Networks (RNNs) to predict the next number in a numerical sequence.
+
+## Dataset
+A numerical sequence dataset is generated using different starting values and step sizes.
+
+- Input: Previous 10 numbers
+- Target: Next number
+- Training samples: 5,000
+- Testing samples: 1,000
+
+## RNN Architecture
+1. Input Layer – receives sequences of 10 numbers.
+2. SimpleRNN – processes sequence data and maintains a hidden state.
+3. Dense Layer – predicts the next numerical value.
+
+## Experiment
+Three RNN models were trained using different hidden unit sizes:
+
+- Model 1: 8 hidden units
+- Model 2: 16 hidden units
+- Model 3: 32 hidden units
+
+## Training Configuration
+- Optimizer: Adam
+- Loss Function: Mean Squared Error
+- Metric: Mean Absolute Error
+- Batch Size: 32
+- Maximum Epochs: 100
+- Early Stopping: Enabled
+
+## Performance Comparison
+
+Fill in the actual results from `rnn_comparison.csv`.
+
+| Hidden Units | Test MSE | Test MAE | Test RMSE |
+|---|---|---|---|
+| 8 | _____ | _____ | _____ |
+| 16 | _____ | _____ | _____ |
+| 32 | _____ | _____ | _____ |
+
+## Sample Prediction
+
+- Input Sequence: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+- Actual Next Number: 20
+- Predicted Next Number: __________
+
+## Concepts Learned
+
+**Hidden State:** The internal memory of an RNN that carries information from previous time steps to the next time step.
+
+**Vanishing Gradient:** During backpropagation through long sequences, gradients can become extremely small, making it difficult for the network to learn long-term dependencies.
+
+**Exploding Gradient:** Gradients can become excessively large during training, causing unstable weight updates.
+
+**LSTM:** Long Short-Term Memory is an advanced RNN architecture designed to handle long-term dependencies more effectively.
+
+## Conclusion
+Three RNN architectures with 8, 16, and 32 hidden units were trained and compared. Their performance was evaluated using MSE, MAE, and RMSE. The experiment demonstrates how RNNs process sequential information and use hidden states to predict future values.

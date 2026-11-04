@@ -1,0 +1,12 @@
+RNN Sequence Prediction Evaluation
+==================================
+
+ Hidden Units  Test Loss (MSE)  Test MAE  Test RMSE  Training Time (seconds)  Epochs Trained
+            8         0.000766  0.015989   0.027686                34.084336             100
+           16         0.000816  0.015289   0.028565                66.280129              82
+           32         0.001663  0.018191   0.040783                35.450377              50
+
+Sample Prediction
+Actual next number: 20.0
+Predicted next number: 19.1369
+Selected hidden units: 16
